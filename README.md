@@ -1,7 +1,7 @@
 # Doctrine Password Type
 
 This project provides a password type for [Doctrine](http://www.doctrine-project.org/) that
-automatically hashes passwords using the [PHP Password Library](https://github.com/rchouinard/phpass) library
+automatically hashes passwords using the [PHP Password Library](https://github.com/rchouinard/phpass)
 and provides a helper method to compare them to raw data submitted by end users. The primary goal
 is to make it stupid-simple to store hashed passwords in a database and check if passwords
 submitted by end users are valid.
