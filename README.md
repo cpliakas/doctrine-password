@@ -24,7 +24,7 @@ guide to install this library.
 
 ## Usage
 
-This library assumes that the developer is familiar with [Doctrin ORM](http://docs.doctrine-project.org/projects/doctrine-orm/en/latest/index.html),
+This library assumes that the developer is familiar with [Doctrine ORM](http://docs.doctrine-project.org/projects/doctrine-orm/en/latest/index.html),
 otherwise the code snippets below won't make much sense.
 
 First, define your entity. Use the "password" type for the column storing passwords:
