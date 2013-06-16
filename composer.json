@@ -1,0 +1,24 @@
+{
+    "name": "cpliakas/doctrine-password",
+    "type": "library",
+    "description": "Adds a password type to Doctrine that hashes and compares passwords using the phpass library.",
+    "keywords": ["doctrine", "phpass", "password"],
+    "homepage": "https://github.com/cpliakas/doctrine-password",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Chris Pliakas",
+            "email": "opensource@chrispliakas.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "doctrine/orm": "2.3.*",
+        "rych/phpass": "~2.0",
+    },
+    "autoload": {
+        "psr-0": {
+            "Cpliakas\\Password\\": "src/"
+        }
+    }
+}
