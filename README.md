@@ -2,7 +2,7 @@
 
 This project provides a password type for [Doctrine](http://www.doctrine-project.org/) that
 automatically hashes passwords using the [phpass](https://github.com/rchouinard/phpass) library
-and providesa helper method to compare them to raw data submitted by end users. The primary goal
+and provides a helper method to compare them to raw data submitted by end users. The primary goal
 is to make it stupid-simple to store hashed passwords in a database and check if passwords
 submitted by end users are valid.
 
@@ -66,7 +66,7 @@ class User
 
 ```
 
-Then, write your code to [obtain the EntityManager](http://docs.doctrine-project.org/projects/doctrine-orm/en/latest/tutorials/getting-started.html#obtaining-the-entitymanager),
+Then write your code to [obtain the EntityManager](http://docs.doctrine-project.org/projects/doctrine-orm/en/latest/tutorials/getting-started.html#obtaining-the-entitymanager),
 and register the password type:
 
 ``` php
@@ -113,8 +113,9 @@ $em->flush();
 
 ```
 
-The password is now stored as a hash in the database. When retrieving the user from the database, the password is returned as an object that contains a helper
-method to compare raw passwords submitted by end users:
+The password is now stored as a hash in the database. When retrieving the user from the database,
+the password is returned as an object that contains a helper method to compare raw passwords
+submitted by end users:
 
 ``` php
 <?php
