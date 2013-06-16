@@ -3,7 +3,6 @@
 namespace Cpliakas\Password\Doctrine;
 
 use Cpliakas\Password\Password;
-use Doctrine\DBAL\Types\ConversionException;
 use Doctrine\DBAL\Types\Type;
 use Doctrine\DBAL\Platforms\AbstractPlatform;
 
