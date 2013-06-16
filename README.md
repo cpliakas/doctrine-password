@@ -20,7 +20,7 @@ requirement in your project's `composer.json` file:
 ```
 
 Then follow Composer's [Installation / Usage](https://github.com/composer/composer#installation--usage)
-to install this library.
+guide to install this library.
 
 ## Usage
 
